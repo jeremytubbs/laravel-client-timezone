@@ -1,0 +1,26 @@
+{
+    "name": "jeremytubbs/laravel-user-timezone",
+    "description": "Get user browser timezone.",
+    "keywords": ["laravel", "javaScript", "timezone", "jstz"],
+    "authors": [
+        {
+            "name": "jeremytubbs",
+            "email": "jeremytubbs@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jeremytubbs\\UserTimezone\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Jeremytubbs\\UserTimezone\\UserTimezoneServiceProvider"
+            ]
+        }
+    }
+}
